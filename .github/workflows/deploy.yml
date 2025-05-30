@@ -71,4 +71,8 @@ jobs:
           bucket: 'gha-custom0action-hosting-sgauvin'
           dist-folder: ./dist
           # bucket-region: ca-central-1
+      - name: Output website URL
+        run: |
+          echo "Live URL: ${{ steps.deploy.outputs.website-url }}"  
+
 
