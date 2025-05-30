@@ -8,7 +8,7 @@ inputs:
     description: 'The AWS region where the S3 bucket is located.'
     required: false
     default: 'ca-central-1'
-  dist-foler:
+  dist-folder:
     description: 'The folder containing the built website files.'
     required: true
 outputs:
